@@ -7,6 +7,7 @@ namespace ProyectoVI.Models
         private int IdVenta {  get; set; }
         private DateTime Date { get; set; }
         private double Total { get; set; }
+        private string AdicionadoPor { get; set; }
         private int IdCliente { get; set; }
 
         public Venta(int idCliente, int idVenta, DateTime date, double total)

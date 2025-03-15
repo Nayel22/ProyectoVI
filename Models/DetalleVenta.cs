@@ -8,6 +8,7 @@
         private int Cantidad { get; set; }
         private double SubTotal {  get; set; }
 
+
         public DetalleVenta(int idDetalleVenta, int idVenta, int idProducto, int cantidad, double subTotal)
         {
             IdDetalleVenta = idDetalleVenta;
